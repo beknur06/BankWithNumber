@@ -1,13 +1,13 @@
 package org.loginPage;
 
-import org.loginPage.Front.LoginPage;
+import org.loginPage.Front.Page;
 
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        LoginPage user = new LoginPage();
+        Page user = new Page();
         while(true){
             System.out.println("Banknig System of Beknur:");
             System.out.println("1. Login");

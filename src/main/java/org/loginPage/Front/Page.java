@@ -7,7 +7,7 @@ import org.loginPage.Back.User;
 import java.util.Map;
 import java.util.Scanner;
 
-public class LoginPage{
+public class Page{
     LogReg use = new LogReg();
     Scanner scan = new Scanner(System.in);
 
